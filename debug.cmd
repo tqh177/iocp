@@ -1,0 +1,1 @@
+gcc -g main.c config.c sock/iocp.c sock/worker.c http/http.c str/chain.c str/dict.c str/json.c str/object.c until/func.c until/log.c until/pool.c until/zlib1.dll -lws2_32 -lmswsock -D _DEBUG -o iocp.exe

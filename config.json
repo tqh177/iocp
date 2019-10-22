@@ -1,0 +1,34 @@
+{
+    "rootpath": "e:/web/",
+    "index": [
+        "index.html",
+        "index.htm",
+        "index.php"
+    ],
+    "ip": "0.0.0.0",
+    "port": 8080,
+    "mime": {
+        "*": "text/html; charset=UTF-8",
+        "html": "text/html; charset=UTF-8",
+        "php": "text/html; charset=UTF-8",
+        "js": "application/javascript; charset=UTF-8",
+        "ico": "image/x-icon"
+    },
+    "gzip": true,
+    "gzip_min_length": 1024,
+    "gzip_path": "e:/download/temp/",
+    "gzip_file": [
+        "js",
+        "html",
+        "png",
+        "jpg",
+        "ico"
+    ],
+    "CGI": {
+        "cmd": "php-cgi"
+    },
+    "page_404": "/errors/404.htm",
+    "header": [
+        "Server: TQHserver"
+    ]
+}
